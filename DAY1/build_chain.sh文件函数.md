@@ -1,4 +1,4 @@
-# build_chain函数
+# build_chain.sh文件函数
 
 ### 打印结果 print_result()
 ### 检查环境 check_env()
