@@ -2,9 +2,11 @@
 
 build_chain.sh脚本用于快速生成一条链中节点的配置文件，脚本依赖于openssl
 
+
 - **帮助**
 
 ![helplist](asset/help.png "help")
+
 
 - **常用选项**
 
@@ -18,3 +20,17 @@ build_chain.sh脚本用于快速生成一条链中节点的配置文件，脚本
 
 
 -l选项指定节点IP和数目。-f选项通过使用一个指定格式的配置文件，支持创建各种复杂业务场景FISCO BCOS链。**-l和-f选项必须指定一个且不可共存。**
+
+
+- **节点文件组织结构**
+
+cert文件夹下存放链的根证书和机构证书。
+
+以IP命名的文件夹下存储该服务器所有节点相关配置、fisco-bcos可执行程序、SDK所需的证书文件。
+
+每个IP文件夹下的node*文件夹下存储节点所需的配置文件。其中config.ini为节点的主配置，conf目录下存储证书文件和群组相关配置。
+每个节点中还提供start.sh和stop.sh脚本，用于启动和停止节点。
+
+每个IP文件夹下的提供start_all.sh和stop_all.sh两个脚本用于启动和停止所有节点。
+
+![](asset/structure.png "nodes-structure")
