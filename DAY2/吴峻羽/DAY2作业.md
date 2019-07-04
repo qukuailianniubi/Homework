@@ -1,15 +1,15 @@
-#DAY2周报
+# DAY2周报
 
 吴峻羽
-##CryptoZombie游戏熟悉Solidity智能合约
+## CryptoZombie游戏熟悉Solidity智能合约
 
 ![](asset/CryptoZombie.png)
 
-##积分合约Credit编写
+## 积分合约Credit编写
 
 ![](asset/Credit.png)
 
-##LAG积分系统运行测试
+## LAG积分系统运行测试
 
 创建商户账号
 
