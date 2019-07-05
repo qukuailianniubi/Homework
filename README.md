@@ -6,6 +6,8 @@
 - DAY2 为实验2 使用spring-boot-starter部署课上的LAG积分合约
 - DAY3
 
+项目前端的代码在上一级的pets_store文件夹中
+
 #### 成员
 - 吴峻羽
 - 黄子凯
